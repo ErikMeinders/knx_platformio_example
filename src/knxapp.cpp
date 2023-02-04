@@ -16,8 +16,7 @@ void knxapp::loop()
     xx++;   
 }
 
-void knxapp::status()
+void knxapp::setup()
 {
-    _knxapp::status();
-    Println("Your status");
+    Println("Your setup");
 }
