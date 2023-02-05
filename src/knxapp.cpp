@@ -10,10 +10,14 @@ void knxapp::loop()
 {
     if (DUE( YourCodeShoutOut ))
     {
-        Log.verbose("Log Your loop %u\n", xx);
+        Log.verbose("Log Your loop %l\n", xx);
         xx=0;
     }
-    xx++;   
+    xx++;
+    if(xx % 1000 == 0)
+    {
+        Log.verbose("Log Your loop %l\n", xx);
+    }
 }
 
 void knxapp::setup()
