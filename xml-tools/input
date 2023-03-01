@@ -1,0 +1,15 @@
+ProductName               example
+ApplicationName           TK XMPL
+ApplicationVersion        16
+ApplicationId             ABCD-01
+OrderNumber               IA4312
+ParameterMemSize          1
+
+PROBABLY_NOT_CHANGE       BELOW_THIS LINE
+
+ApplicationNumber         43981
+HardwareName              ESP32
+HardwareVersion           2
+MaskVersion               MV-57B0
+MediumTypes               MT-5
+SerialNumber              0000
